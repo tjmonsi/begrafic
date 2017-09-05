@@ -1,0 +1,14 @@
+language: node_js
+node_js: stable
+dist: trusty
+sudo: required
+before_script:
+- npm install -g firebase-tools
+script:
+- echo "Deploying!"
+deploy:
+  # deploy master to production
+  - provider: script
+    script: firebase deploy --token $FIREBASE_TOKEN --non-interactive --only hosting
+    on:
+      branch: master
