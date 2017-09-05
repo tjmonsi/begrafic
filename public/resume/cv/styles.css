@@ -1,0 +1,22 @@
+
+body {
+	margin: 0 auto;
+	width: 700px;
+	font-size: 12px;
+	line-height: 18px;
+}
+#navigation {
+	float: left;
+	width: 150px
+}
+#content {
+	float: left;
+	width: 100%;
+}
+#footer {
+	clear: both;
+}
+h1 {
+	color: #94B759;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
