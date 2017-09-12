@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.copyrt {
+	font-size: 18px;
+	color: #CCC;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: right;
+	display: block;
+	padding-right: 100px;
+}
+.rt {
+	text-align: right;
+}
